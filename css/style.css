@@ -302,6 +302,13 @@ h2{
 	margin-bottom: 40px;
 }
 
+@media (min-width: 550px){
+	#experience{
+		font-size: 20px;
+		font-family: cursive;
+		color: #a14296;
+	}
+}
 
 
 
