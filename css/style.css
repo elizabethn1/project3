@@ -302,6 +302,12 @@ h2{
 	margin-bottom: 40px;
 }
 
+#map{
+	height: 700px;
+	width: 700px;
+}
+
+
 @media (min-width: 800px){
 	#experience{
 	height: 250px;
