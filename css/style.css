@@ -81,14 +81,14 @@ h2{
 }
 
 #experience{
-	width: 800px;
-	height: 250px;
-	font-size: 16px;
-	font-family: monospace;
+	font-size: 23px;
+	font-family: serif;
 	color: #194d32;
-	margin: auto 80px 60px auto;
-	padding-right: 100px;
-	border: 3px ridge #c6ecd9;
+	border-style: double;
+	border-radius: 10px;
+	border-width: 5px;
+	border-color: #ffbb87;
+	width: 800px;
 }
 
 #h2education{
@@ -113,14 +113,14 @@ h2{
 }
 
 #awards{
+    font-size: 22px;
+	font-family: copperplate;
+	color: #6905ed;
+	border-style: dashed;
+	border-radius: 20px;
+	border-width: 4px;
+	border-color: #d60656;
 	width: 800px;
-	height: 120px;
-	font-size: 16px;
-	font-family: monospace;
-	color: #194d32;
-	margin: auto 80px 60px auto;
-	padding-right: 100px;
-	border: 3px ridge #c6ecd9;
 }
 
 #h2eca{
@@ -302,13 +302,30 @@ h2{
 	margin-bottom: 40px;
 }
 
-@media (min-width: 550px){
+@media (min-width: 800px){
 	#experience{
-		font-size: 20px;
-		font-family: cursive;
-		color: #a14296;
+	height: 250px;
+	font-size: 16px;
+	font-family: monospace;
+	margin: auto 80px 60px auto;
+	padding-right: 100px;
+	border: 3px ridge #c6ecd9;
 	}
 }
+
+@media (min-width: 800px){
+	#awards{
+	width: 800px;
+	height: 120px;
+	font-size: 16px;
+	font-family: monospace;
+	color: #194d32;
+	margin: auto 80px 60px auto;
+	padding-right: 100px;
+	border: 3px ridge #c6ecd9;
+	}
+}
+
 
 
 
