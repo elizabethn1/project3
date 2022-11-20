@@ -302,7 +302,14 @@ h2{
 	margin-bottom: 40px;
 }
 
-#map{
+#mapwrapper{
+	width: 850px;
+	height: 600px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+#mapcanvas{
 	height: 700px;
 	width: 700px;
 	margin-left: auto;
