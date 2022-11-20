@@ -1,11 +1,3 @@
-/*var map;
-function initMap(){
-  map = new google.maps.Map(document.getElementById('mapcanvas'), {
-  center: {lat: 35.65926, lng: 139.70127879514445},
-  zoom: 15
-  });
-}*/
-
 function initMap(){
 	var m=document.getElementById('mapcanvas');
 	var myLocation=new google.maps.LatLng(35.65926, 139.70127879514445);
@@ -37,28 +29,16 @@ function initMap(){
 		map: myMap,
 	});
 
-    const blueCoords = [
-      {lat: 35.66204542275932, lng: 139.70173016223686 },
-	  {lat: 35.66272533465179, lng: 139.7032321991991},
-	  {lat: 35.66155727731734, lng: 139.70192328127484},
-    ];
+  var contentString = "<p>The Shoto Museum of Art!</p>";
 
-    new google.maps.Polygon({
-      myMap,
-      paths: blueCoords,
-      strokeColor: "#0000FF",
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: "#0000FF",
-      fillOpacity: 0.35,
-      draggable: true,
-      geodesic: false,
+  var infoWindow = new google.maps.InfoWindow({
+  	content: contentString,
   });
 
-	//alert('it works');
+  google.maps.event.addListener (marker, 'click', function() {
+    infoWindow.open(myMap, marker);
+  });
 }
-
-//google.maps.event.addDOMListener(window, 'load', initMap);
 
 window.initMap=initMap;
 
