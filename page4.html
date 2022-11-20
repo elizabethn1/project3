@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
   <head>
     <meta charset="UTF-8">
-    <title>Simple Map</title>
+    <title>project</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Russo+One&display=swap" rel="stylesheet">
     <script async src="js/script.js"></script>
     <script async 
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6K2mx8brLqpm5d32-cMKYOWdq2FNSZIM&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?AIzaSyA6K2mx8brLqpm5d32-cMKYOWdq2FNSZIM&callback=initMap">
     </script>
   </head>
   <body>
+    <header>
+      <nav id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html" title="page1">Resume</a></li>
+            <li><a href="page2.html" title="page2">Pets</a></li>
+            <li><a href="page3.html" title="page3">Favorite Games</a></li>
+            <li id="onpage"><a href="#" title="page4">Map</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <div id="map"></div>
   </body>
 </html>
