@@ -303,17 +303,18 @@ h2{
 }
 
 #mapwrapper{
-	width: 850px;
+	width: 720px;
 	height: 600px;
-	margin: 40px auto;
+	background-color: #9ab1fc;
+	margin: 50px auto;
 	overflow: hidden;
 }
 
 #mapcanvas{
-	height: 700px;
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 670px;
+	height: 550px;
+	background-color: #ccc;
+	margin: 30px auto; 
 }
 
 
